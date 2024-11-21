@@ -150,7 +150,7 @@ public class Convert implements Callable<Integer> {
   public void setSharding(String shard) {
     if (shard != null && !shard.isEmpty()) {
       try {
-        shardConfig = Enum.valueOf(ShardConfiguration.class, shard);
+        shardConfig = Enum.valueOf(ShardConfiguration.class, shard.toUpperCase());
       }
       catch (IllegalArgumentException e) {
         shardConfig = ShardConfiguration.CUSTOM;

@@ -29,7 +29,7 @@ you can [install it or download the pre-built dll](https://github.com/glencoesof
 
 ## Usage
 
-- Open a terminal under
+- Open a terminal under the bin folder
 ````dtd
 /build/distributions/zarr2zarr-VERSION/bin
 ````
